@@ -1,3 +1,7 @@
 #!/bin/sh
 
-echo "Hello, world!"
+echo ""
+pwd
+date
+printenv PATH
+echo ""
