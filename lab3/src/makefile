@@ -1,17 +1,36 @@
 CC=gcc
 CFLAGS=-I.
 
-sequential_min_max : utils.o find_min_max.o utils.h find_min_max.h
-	$(CC) -o sequential_min_max find_min_max.o utils.o sequential_min_max.c $(CFLAGS)
+BUILD_DIR = build/
+BIN_DIR = bin/
 
-parallel_min_max : utils.o find_min_max.o utils.h find_min_max.h
-	$(CC) -o parallel_min_max utils.o find_min_max.o parallel_min_max.c $(CFLAGS)
+all: sequential_min_max parallel_min_max forc_exec
 
-utils.o : utils.h
-	$(CC) -o utils.o -c utils.c $(CFLAGS)
+sequential_min_max: $(BUILD_DIR)utils.o $(BUILD_DIR)find_min_max.o sequential_min_max.c
+	mkdir -p $(BIN_DIR)
+	$(CC) -o "$(BIN_DIR)$@" $^ $(CFLAGS)
 
-find_min_max.o : utils.h find_min_max.h
-	$(CC) -o find_min_max.o -c find_min_max.c $(CFLAGS)
+parallel_min_max: $(BUILD_DIR)utils.o $(BUILD_DIR)find_min_max.o parallel_min_max.c
+	mkdir -p $(BIN_DIR)
+	$(CC) -o "$(BIN_DIR)$@" $^ $(CFLAGS)
 
-clean :
-	rm utils.o find_min_max.o sequential_min_max parallel_min_max
+$(BUILD_DIR)utils.o: utils.c
+	mkdir -p $(BUILD_DIR)
+	$(CC) -o $@ -c $< $(CFLAGS)
+
+$(BUILD_DIR)find_min_max.o: find_min_max.c
+	mkdir -p $(BUILD_DIR)
+	$(CC) -o $@ -c $< $(CFLAGS)
+
+$(BUILD_DIR)forc_exec.o: forc_exec.c
+	mkdir -p $(BUILD_DIR)
+	$(CC) -o $@ -c $< $(CFLAGS)
+
+forc_exec: $(BUILD_DIR)forc_exec.o sequential_min_max.c
+	mkdir -p $(BIN_DIR)
+	$(CC) -o "$(BIN_DIR)$@" $(BUILD_DIR)forc_exec.o
+
+clean:
+	rm -rf $(BUILD_DIR)
+	rm -rf $(BIN_DIR)
+	rm -f .shared_data.txt

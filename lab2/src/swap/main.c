@@ -1,11 +1,12 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 #include "swap.h"
 
-int main()
+int main(int argc, char *argv[])
 {
-	char ch1 = 'a';
-	char ch2 = 'b';
+	char ch1 = argv[1][0];
+	char ch2 = argv[2][0];
 
 	Swap(&ch1, &ch2);
 
