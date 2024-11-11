@@ -1,1 +1,1 @@
-/usr/bin/cc -g -rdynamic CMakeFiles/parallel_min_max.dir/parallel_min_max.c.o CMakeFiles/parallel_min_max.dir/utils.c.o CMakeFiles/parallel_min_max.dir/find_min_max.c.o -o parallel_min_max 
+/usr/bin/cc -g -rdynamic CMakeFiles/parallel_min_max.dir/parallel_min_max.c.o CMakeFiles/parallel_min_max.dir/utils.c.o CMakeFiles/parallel_min_max.dir/find_min_max.c.o -o parallel_min_max

@@ -1,3 +1,3 @@
-/projects/os-lab-2019/lab4/src/min_max/build/CMakeFiles/rebuild_cache.dir
-/projects/os-lab-2019/lab4/src/min_max/build/CMakeFiles/parallel_min_max.dir
-/projects/os-lab-2019/lab4/src/min_max/build/CMakeFiles/edit_cache.dir
+/home/user/Desktop/os_lab_2019/lab4/src/min_max/build/CMakeFiles/parallel_min_max.dir
+/home/user/Desktop/os_lab_2019/lab4/src/min_max/build/CMakeFiles/edit_cache.dir
+/home/user/Desktop/os_lab_2019/lab4/src/min_max/build/CMakeFiles/rebuild_cache.dir

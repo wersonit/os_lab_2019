@@ -1,0 +1,4 @@
+/projects/os-lab-2019/lab4/src/sum/build/CMakeFiles/edit_cache.dir
+/projects/os-lab-2019/lab4/src/sum/build/CMakeFiles/rebuild_cache.dir
+/projects/os-lab-2019/lab4/src/sum/build/CMakeFiles/parallel_sum.dir
+/projects/os-lab-2019/lab4/src/sum/build/CMakeFiles/utils.dir

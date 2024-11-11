@@ -1,0 +1,2 @@
+/usr/bin/ar qc libutils.a CMakeFiles/utils.dir/projects/os-lab-2019/lab4/src/utils.c.o
+/usr/bin/ranlib libutils.a

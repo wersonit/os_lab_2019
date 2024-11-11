@@ -1,0 +1,1 @@
+/usr/bin/cc -g -rdynamic CMakeFiles/parallel_sum.dir/parallel_sum.c.o CMakeFiles/parallel_sum.dir/sum.c.o -o parallel_sum  -lpthread libutils.a 

@@ -1,0 +1,3 @@
+/home/user/Desktop/os_lab_2019/lab4/src/min_max/CMakeFiles/parallel_min_max.dir
+/home/user/Desktop/os_lab_2019/lab4/src/min_max/CMakeFiles/edit_cache.dir
+/home/user/Desktop/os_lab_2019/lab4/src/min_max/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,1 @@
+/usr/bin/cc -g -rdynamic CMakeFiles/process_memory.dir/process_memory.c.o -o process_memory 
