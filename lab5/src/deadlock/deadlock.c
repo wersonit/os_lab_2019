@@ -26,12 +26,12 @@ int main() {
   pthread_mutex_t mutexes[2] = {PTHREAD_MUTEX_INITIALIZER, PTHREAD_MUTEX_INITIALIZER};
 
   pthread_t threads[2];
-  if (pthread_create(threads, NULL, (void *) get_res_lock, (void *) mutexes)) {
+  if (pthread_create(&threads[0], NULL, (void *) get_res_lock, (void *) mutexes)) {
     perror("\nERROR CREATE THREAD\n");
     return 1;
   }
 
-  if (pthread_create(threads + 1, NULL, (void *) get_another_res, (void *) mutexes)) {
+  if (pthread_create(&threads[1], NULL, (void *) get_another_res, (void *) mutexes)) {
     perror("\nERROR CREATE THREAD\n");
     return 1;
   }

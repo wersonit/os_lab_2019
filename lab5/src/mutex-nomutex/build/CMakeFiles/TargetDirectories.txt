@@ -1,4 +1,4 @@
-/projects/os-lab-2019/lab5/src/mutex-nomutex/build/CMakeFiles/rebuild_cache.dir
-/projects/os-lab-2019/lab5/src/mutex-nomutex/build/CMakeFiles/edit_cache.dir
-/projects/os-lab-2019/lab5/src/mutex-nomutex/build/CMakeFiles/mutex.dir
-/projects/os-lab-2019/lab5/src/mutex-nomutex/build/CMakeFiles/nomutex.dir
+/home/user/Desktop/os_lab_2019/lab5/src/mutex-nomutex/build/CMakeFiles/mutex.dir
+/home/user/Desktop/os_lab_2019/lab5/src/mutex-nomutex/build/CMakeFiles/nomutex.dir
+/home/user/Desktop/os_lab_2019/lab5/src/mutex-nomutex/build/CMakeFiles/edit_cache.dir
+/home/user/Desktop/os_lab_2019/lab5/src/mutex-nomutex/build/CMakeFiles/rebuild_cache.dir

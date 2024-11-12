@@ -1,0 +1,3 @@
+/home/user/Desktop/os_lab_2019/lab5/src/deadlock/CMakeFiles/deadlock.dir
+/home/user/Desktop/os_lab_2019/lab5/src/deadlock/CMakeFiles/edit_cache.dir
+/home/user/Desktop/os_lab_2019/lab5/src/deadlock/CMakeFiles/rebuild_cache.dir

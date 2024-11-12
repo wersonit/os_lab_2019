@@ -1,1 +1,1 @@
-/usr/bin/cc -g -rdynamic CMakeFiles/mutex.dir/mutex.c.o -o mutex  -lpthread 
+/usr/bin/cc -g -rdynamic CMakeFiles/mutex.dir/mutex.c.o -o mutex

@@ -16,23 +16,23 @@ int main() {
   printf("Execute with mutex\n'");
 
   if (pthread_create(&thread1, NULL, (void *) do_one_thing,
-                     (void *) &common) != 0) {
+                     (void *) &common)) {
     perror("pthread_create");
     exit(1);
   }
 
   if (pthread_create(&thread2, NULL, (void *) do_another_thing,
-                     (void *) &common) != 0) {
+                     (void *) &common)) {
     perror("pthread_create");
     exit(1);
   }
 
-  if (pthread_join(thread1, NULL) != 0) {
+  if (pthread_join(thread1, NULL)) {
     perror("pthread_join");
     exit(1);
   }
 
-  if (pthread_join(thread2, NULL) != 0) {
+  if (pthread_join(thread2, NULL)) {
     perror("pthread_join");
     exit(1);
   }

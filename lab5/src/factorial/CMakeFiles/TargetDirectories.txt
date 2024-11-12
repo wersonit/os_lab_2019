@@ -1,0 +1,3 @@
+/home/user/Desktop/os_lab_2019/lab5/src/factorial/CMakeFiles/factorial.dir
+/home/user/Desktop/os_lab_2019/lab5/src/factorial/CMakeFiles/edit_cache.dir
+/home/user/Desktop/os_lab_2019/lab5/src/factorial/CMakeFiles/rebuild_cache.dir

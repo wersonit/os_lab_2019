@@ -8,115 +8,123 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/projects/os-lab-2019/lab5/src/mutex-nomutex/build"/>
+				<Option working_dir="/home/user/Desktop/os_lab_2019/lab5/src/mutex-nomutex/build"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/projects/os-lab-2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/projects/os-lab-2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/projects/os-lab-2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/projects/os-lab-2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/projects/os-lab-2019/lab5/src/mutex-nomutex/build"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/projects/os-lab-2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/projects/os-lab-2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/projects/os-lab-2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/projects/os-lab-2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/projects/os-lab-2019/lab5/src/mutex-nomutex/build"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/projects/os-lab-2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/projects/os-lab-2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/projects/os-lab-2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/projects/os-lab-2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/user/Desktop/os_lab_2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/user/Desktop/os_lab_2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/user/Desktop/os_lab_2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/user/Desktop/os_lab_2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="mutex">
-				<Option output="/projects/os-lab-2019/lab5/src/mutex-nomutex/build/mutex" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/projects/os-lab-2019/lab5/src/mutex-nomutex/build"/>
+				<Option output="/home/user/Desktop/os_lab_2019/lab5/src/mutex-nomutex/build/mutex" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/Desktop/os_lab_2019/lab5/src/mutex-nomutex/build"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/14/include"/>
 					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/14/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/14/../../../../x86_64-suse-linux/include"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/projects/os-lab-2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 mutex"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/projects/os-lab-2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/projects/os-lab-2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/projects/os-lab-2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/user/Desktop/os_lab_2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 mutex"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/user/Desktop/os_lab_2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/user/Desktop/os_lab_2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/user/Desktop/os_lab_2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="mutex/fast">
-				<Option output="/projects/os-lab-2019/lab5/src/mutex-nomutex/build/mutex" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/projects/os-lab-2019/lab5/src/mutex-nomutex/build"/>
+				<Option output="/home/user/Desktop/os_lab_2019/lab5/src/mutex-nomutex/build/mutex" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/Desktop/os_lab_2019/lab5/src/mutex-nomutex/build"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/14/include"/>
 					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/14/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/14/../../../../x86_64-suse-linux/include"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/projects/os-lab-2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 mutex/fast"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/projects/os-lab-2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/projects/os-lab-2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/projects/os-lab-2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/user/Desktop/os_lab_2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 mutex/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/user/Desktop/os_lab_2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/user/Desktop/os_lab_2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/user/Desktop/os_lab_2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="nomutex">
-				<Option output="/projects/os-lab-2019/lab5/src/mutex-nomutex/build/nomutex" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/projects/os-lab-2019/lab5/src/mutex-nomutex/build"/>
+				<Option output="/home/user/Desktop/os_lab_2019/lab5/src/mutex-nomutex/build/nomutex" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/Desktop/os_lab_2019/lab5/src/mutex-nomutex/build"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/14/include"/>
 					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/14/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/14/../../../../x86_64-suse-linux/include"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/projects/os-lab-2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 nomutex"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/projects/os-lab-2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/projects/os-lab-2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/projects/os-lab-2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/user/Desktop/os_lab_2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 nomutex"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/user/Desktop/os_lab_2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/user/Desktop/os_lab_2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/user/Desktop/os_lab_2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="nomutex/fast">
-				<Option output="/projects/os-lab-2019/lab5/src/mutex-nomutex/build/nomutex" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/projects/os-lab-2019/lab5/src/mutex-nomutex/build"/>
+				<Option output="/home/user/Desktop/os_lab_2019/lab5/src/mutex-nomutex/build/nomutex" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/Desktop/os_lab_2019/lab5/src/mutex-nomutex/build"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/14/include"/>
 					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/14/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/14/../../../../x86_64-suse-linux/include"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/projects/os-lab-2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 nomutex/fast"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/projects/os-lab-2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/projects/os-lab-2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/projects/os-lab-2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/user/Desktop/os_lab_2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 nomutex/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/user/Desktop/os_lab_2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/user/Desktop/os_lab_2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/user/Desktop/os_lab_2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/user/Desktop/os_lab_2019/lab5/src/mutex-nomutex/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/user/Desktop/os_lab_2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/user/Desktop/os_lab_2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/user/Desktop/os_lab_2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/user/Desktop/os_lab_2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/user/Desktop/os_lab_2019/lab5/src/mutex-nomutex/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/user/Desktop/os_lab_2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/user/Desktop/os_lab_2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/user/Desktop/os_lab_2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/user/Desktop/os_lab_2019/lab5/src/mutex-nomutex/build/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/projects/os-lab-2019/lab5/src/mutex-nomutex/mutex.c">
+		<Unit filename="/home/user/Desktop/os_lab_2019/lab5/src/mutex-nomutex/mutex.c">
 			<Option target="mutex"/>
 		</Unit>
-		<Unit filename="/projects/os-lab-2019/lab5/src/mutex-nomutex/nomutex.c">
+		<Unit filename="/home/user/Desktop/os_lab_2019/lab5/src/mutex-nomutex/nomutex.c">
 			<Option target="nomutex"/>
 		</Unit>
-		<Unit filename="/projects/os-lab-2019/lab5/src/mutex-nomutex/CMakeLists.txt">
+		<Unit filename="/home/user/Desktop/os_lab_2019/lab5/src/mutex-nomutex/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

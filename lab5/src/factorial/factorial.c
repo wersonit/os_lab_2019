@@ -46,19 +46,22 @@ int main(int argc, char **argv) {
     switch (c) {
       case 0:
         switch (option_index) {
-          case 0:k = atoi(optarg);
+          case 0:
+            k = atoi(optarg);
             if (k < 0) {
               printf("Number must be positive\n");
               return 1;
             }
             break;
-          case 1:threads_num = atoi(optarg);
+          case 1:
+            threads_num = atoi(optarg);
             if (threads_num < 0) {
               printf("Threads number must be positive\n");
               return 1;
             }
             break;
-          case 2:mod = atoi(optarg);
+          case 2:
+            mod = atoi(optarg);
             if (mod < 0) {
               printf("Mod number must be positive\n");
               return 1;
